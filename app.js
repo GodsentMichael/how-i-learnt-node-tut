@@ -23,7 +23,7 @@
 const express = require("express");
 const fsPromises = require("fs").promises;
 
-const PORT = 8000;
+const PORT = 3000;
 const app = express();
 
 app.use(express.static("content"));
